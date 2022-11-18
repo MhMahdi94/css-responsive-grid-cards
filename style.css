@@ -2,29 +2,24 @@ body{
     background: hsl(0, 0%, 95%);
     font-size: 15px;
     font-family: 'Big Shoulders Display', cursive;
-
+    height: 100vh;
 }
 
 main{
     display: grid;
-    grid-template-columns: 15% 1fr 15%;
-    height: 100vh;
-    /* min-width: 375px; */
+    grid-template-columns: 1fr 2fr 1fr;
+    
 }
 
 .product-card{
     display: flex;
-    justify-content: center;
-    align-items: center;
     color: hsla(0, 0%, 100%, 0.75);
-    
-    /* height: 300px; */
+    /* height: 100%; */
 }
 
 .product-card div{
-    width: calc(100%/3);
-    padding: 16px;
-    /* height: 100%; */
+    /* width: calc(100%/3); */
+    padding: 16px;  
     width: 100%;
 }
 
@@ -32,6 +27,7 @@ main{
 h2{
     text-transform: uppercase;
 }
+
 .product-card p{
     font-family: 'Lexend Deca', sans-serif;
 }
@@ -87,7 +83,7 @@ a:hover{
 
 @media only screen and (max-width: 768px) {
     body {
-        overflow: hidden;
+        /* overflow: hidden; */
     }
 
     .product-card{
