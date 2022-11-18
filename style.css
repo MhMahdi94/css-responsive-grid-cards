@@ -14,7 +14,7 @@ main{
 
 .product-card{
     display: flex;
-    /* justify-content: space-evenly; */
+    justify-content: center;
     align-items: center;
     color: hsla(0, 0%, 100%, 0.75);
     
